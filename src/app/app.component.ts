@@ -9,11 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'bytebank';
 
-  constructor(private service: TransferenciasService){
-
-  }
-
-  transferir($event){
-    this.service.adicinar($event)
-  }
+  constructor(private service: TransferenciasService){}
 }
